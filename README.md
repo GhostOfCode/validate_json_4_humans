@@ -17,9 +17,12 @@
 ```Дублирование с файла README_LOG.txt```
 
 ---
+
 № of test: 1,
 File - 1eba2aa1-2acf-460d-91e6-55a8c3e3b7a3.json
 Schema: label_selected.schema
+Total number of required fields - 7, number of failed fields - 7
+valid fields - 0/7
 Errors:
  - 'id' is a required property - pls, correct that
  - 'labels' is a required property - pls, correct that
@@ -32,6 +35,8 @@ Errors:
 № of test: 2,
 File - 297e4dc6-07d1-420d-a5ae-e4aff3aedc19.json
 Schema: sleep_created.schema
+Total number of required fields - 6, number of failed fields - 6
+valid fields - 0/6
 Errors:
  - 'source' is a required property - pls, correct that
  - 'timestamp' is a required property - pls, correct that
@@ -55,6 +60,8 @@ SCHEMA file not found: cmarker_calculated.schema, pls correct that
 № of test: 6,
 File - 3b4088ef-7521-4114-ac56-57c68632d431.json
 Schema: cmarker_created.schema
+Total number of required fields - 3, number of failed fields - 2
+valid fields - 1/3
 Errors:
  - 'cmarkers' is a required property - pls, correct that
  - 'datetime' is a required property - pls, correct that
@@ -74,6 +81,8 @@ SCHEMA file not found: label_       selected.schema, pls correct that
 № of test: 10,
 File - bb998113-bc02-4cd1-9410-d9ae94f53eb0.json
 Schema: sleep_created.schema
+Total number of required fields - 6, number of failed fields - 6
+valid fields - 0/6
 Errors:
  - 'source' is a required property - pls, correct that
  - 'timestamp' is a required property - pls, correct that
@@ -89,6 +98,8 @@ SCHEMA file not found: meditation_created.schema, pls correct that
 № of test: 12,
 File - cc07e442-7986-4714-8fc2-ac2256690a90.json
 Schema: label_selected.schema
+Total number of required fields - 7, number of failed fields - 6
+valid fields - 1/7
 Errors:
  - 'id' is a required property - pls, correct that
  - 'labels' is a required property - pls, correct that
@@ -100,6 +111,8 @@ Errors:
 № of test: 13,
 File - e2d760c3-7e10-4464-ab22-7fda6b5e2562.json
 Schema: cmarker_created.schema
+Total number of required fields - 3, number of failed fields - 2
+valid fields - 1/3
 Errors:
  - 'cmarkers' is a required property - pls, correct that
  - 'datetime' is a required property - pls, correct that
@@ -107,6 +120,8 @@ Errors:
 № of test: 14,
 File - f5656ff6-29e1-46b0-8d8a-ff77f9cc0953.json
 Schema: sleep_created.schema
+Total number of required fields - 6, number of failed fields - 6
+valid fields - 0/6
 Errors:
  - 'source' is a required property - pls, correct that
  - 'timestamp' is a required property - pls, correct that
@@ -118,6 +133,8 @@ Errors:
 № of test: 15,
 File - fb1a0854-9535-404d-9bdd-9ec0abb6cd6c.json
 Schema: cmarker_created.schema
+Total number of required fields - 3, number of failed fields - 2
+valid fields - 1/3
 Errors:
  - 'cmarkers' is a required property - pls, correct that
  - 'datetime' is a required property - pls, correct that
@@ -125,6 +142,8 @@ Errors:
 № of test: 16,
 File - ffe6b214-d543-40a8-8da3-deb0dc5bbd8c.json
 Schema: cmarker_created.schema
+Total number of required fields - 3, number of failed fields - 3
+valid fields - 0/3
 Errors:
  - 'cmarkers' is a required property - pls, correct that
  - 'datetime' is a required property - pls, correct that

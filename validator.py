@@ -11,10 +11,17 @@ def validate_json(json_file, schema):
     error_list = ['Errors:']
     validator = Draft7Validator(schema)
     errors = sorted(validator.iter_errors(json_file), key=lambda e: e.path)
+    num_of_required_field = len(schema['required'])
+    num_of_errors_field = len(errors)
+    num_of_valid_field = num_of_required_field - num_of_errors_field
+    title = f'Total number of required fields - {num_of_required_field}, '\
+            f'number of failed fields - {num_of_errors_field}' \
+            f'\nvalid fields - {num_of_valid_field}/{num_of_required_field}'
     for error in errors:
         error_list.append(' - ' + error.message + ' - pls, correct that')
 
     if error_list:
+        error_list.insert(0, title)
         return error_list
     else:
         return 'File is not valid'
